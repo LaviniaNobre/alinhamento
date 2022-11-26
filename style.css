@@ -1,0 +1,47 @@
+h1 {
+  color: rgba(216, 146, 216, 0.911);
+}
+
+.flex {
+  background-image: linear-gradient(to bottom right, rgb(160, 210, 243), rgb(109, 99, 197));
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  max-width: 100%;
+}
+
+.flex img {
+  max-width: 100%;
+}
+
+.coluna {
+  background-image: linear-gradient(to bottom right, rgba(167, 146, 216, 0.911), rgba(216, 146, 146, 0.911)) ;
+
+  margin: 10px;
+  padding: 10px;
+  width: 200px; 
+
+  display: flex; 
+  width: 200px;
+  flex-direction: column; 
+}
+
+.coluna > p, h3 {
+  color: white;
+}
+
+.coluna > p {
+  text-align: justify;
+}
+
+.botão {
+  background-color: rgba(231, 240, 193, 0.61);
+  color: rgb(129, 106, 245);
+
+  border-radius: 5px;
+  padding: 0px 2px;
+
+  align-self: flex-start; 
+  margin-top: auto; 
+
+}
